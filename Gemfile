@@ -13,6 +13,8 @@ gem 'haml-rails'
 gem 'devise'
 gem 'pundit'
 gem 'geocoder'
+gem 'webpacker', '~> 3.0'
+
 
 gem 'bootsnap', '>= 1.1.0', require: false
 
