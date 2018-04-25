@@ -3,6 +3,14 @@
 
 @tailwind components;
 
+.btn {
+    @apply .bg-blue-dark .flex  .w-1/2
+}
+
+.btn:hover {
+    @apply .bg-blue-light;
+}
+
 
 @tailwind utilities;
 

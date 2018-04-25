@@ -7,10 +7,11 @@
     <%= tag.meta id: :fake_position, content: fake_location %>
   <% end %>
 
+
+  <!--<%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>-->
+  <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   <%= javascript_pack_tag 'application' %>
   <%= stylesheet_pack_tag 'application' %>
-  <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
 </head>
 
 <body data-env="<%= Rails.env %>" data-geocoded="<%= @geocoded %>">
